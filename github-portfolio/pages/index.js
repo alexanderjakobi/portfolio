@@ -38,7 +38,6 @@ export default function Home() {
     />
 
     {/* Hier ist der Hauptinhalt */}
-    <h1>Hier kommt eine Leiste rein.</h1>
 
    </div>
   );
