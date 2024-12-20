@@ -14,8 +14,59 @@
   }
 }
 
+@media (max-width: 768px) {
+  .icon-bar {
+    padding: 8px 15px;
+    gap: 10px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+}
+
+
+.icon-bar {
+  position: fixed;
+  top: 0; /* Abstand vom oberen Rand */
+  left: 50%; /* Zentriert die Leiste horizontal */
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px; /* Abstand zwischen den Icons */
+  background-color: #1a1a1a; /* Hintergrundfarbe */
+  padding: 10px 20px;
+  border-radius: 0 0 25px 25px; /* Abgerundete Ecken nur unten */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  width: auto; /* Automatische Breite */
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #fff; /* Weiße Farbe */
+  font-size: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.icon:hover {
+  background-color: #333; /* Hellerer Hintergrund bei Hover */
+  border-radius: 50%;
+}
+
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--background); 
+  background: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.fixed-image{
+  position: fixed;
+  top: 100px;
+  left: 150px;
 }
