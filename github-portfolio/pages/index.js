@@ -32,7 +32,7 @@ export default function Home() {
     <Image
      src = {myPhoto}
      alt = "My Photo"
-     className="fixed-image"
+     layout="responsive"
      width={500}
      height={800}
     />
