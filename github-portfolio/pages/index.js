@@ -26,9 +26,10 @@ export function IconBar(){
 
 export default function Home() {
   return (
-    <div className="bg-black text-white min-h-screen flex flex-col lg:flex-row items-center lg:items-start p-8">
+    <div className="bg-black text-white min-h-screen">
       {/* IconBar hinzufügen */}
       <IconBar />
+
       {/* Bildbereich */}
       <div className="flex flex-col items-center lg:w-1/3 w-full mb-8 lg:mb-0">
         <Image
