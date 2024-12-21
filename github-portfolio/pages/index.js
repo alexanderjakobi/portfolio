@@ -27,6 +27,8 @@ export function IconBar(){
 export default function Home() {
   return (
     <div className="bg-black text-white min-h-screen flex flex-col lg:flex-row items-center lg:items-start p-8">
+      {/* IconBar hinzufügen */}
+      <IconBar />
       {/* Bildbereich */}
       <div className="flex flex-col items-center lg:w-1/3 w-full mb-8 lg:mb-0">
         <Image
@@ -37,7 +39,7 @@ export default function Home() {
           height={800}
           className="rounded-lg"
         />
-        <h2 className="text-2xl font-bold mt-4">Mark Smith</h2>
+        <h2 className="text-2xl font-bold mt-4">Alexander Jakobi</h2>
         <p className="text-sm text-gray-400 mt-2 text-center">
           A Software Engineer who has developed countless innovative solutions.
         </p>
@@ -69,15 +71,15 @@ export default function Home() {
         </p>
         <div className="flex justify-center lg:justify-start gap-8">
           <div>
-            <p className="text-3xl font-bold">+12</p>
+            <p className="text-3xl font-bold">+2</p>
             <p className="text-sm text-gray-400">YEARS OF EXPERIENCE</p>
           </div>
           <div>
-            <p className="text-3xl font-bold">+46</p>
+            <p className="text-3xl font-bold">+4</p>
             <p className="text-sm text-gray-400">PROJECTS COMPLETED</p>
           </div>
           <div>
-            <p className="text-3xl font-bold">+20</p>
+            <p className="text-3xl font-bold">+2</p>
             <p className="text-sm text-gray-400">WORLDWIDE CLIENTS</p>
           </div>
         </div>
