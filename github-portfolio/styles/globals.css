@@ -28,7 +28,7 @@
   transform: translateX(-50%);
   display: flex;
   gap: 15px; /* Abstand zwischen den Icons */
-  background-color: #1a1a1a; /* Hintergrundfarbe */
+  background-color: #171717; /* Hintergrundfarbe */
   padding: 10px 20px;
   border-radius: 0 0 25px 25px; /* Abgerundete Ecken nur unten */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -41,7 +41,7 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  color: #fff; /* Weiße Farbe */
+  color: #ffffff; /* Weiße Farbe */
   font-size: 20px;
   text-decoration: none;
   transition: background-color 0.3s ease;
